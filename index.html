@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+        <h2>TO-DO LIST</h2>
+        </div>
+        <div>
+         <form id="task-form" class="form">
+             <div class="input-field">
+             <input type="text" name="task" id="task" placeholder="Text here">
+             </div>
+             <div>
+             <input type="submit" value="Add Task" class="btn">
+             </div>
+         </form>
+        </div>
+        <div class="list-item">
+            <h3>Task list !!</h3>
+            <ul class="collection">
+                <li class="collection-item">Tea<a class="delete-item"><i class="fa fa-remove"></i></a></li>
+                <li class="collection-item">coffee<a class="delete-item"><i class="fa fa-remove"></i></a></li>
+                <li class="collection-item">capuccino<a class="delete-item"><i class="fa fa-remove"></i></a></li>
+            </ul>
+            <input type="submit" class="clr-btn" value="Clear Task">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
